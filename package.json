@@ -1,0 +1,16 @@
+{
+  "name": "zjunlict",
+  "version": "1.0.0",
+  "description": "website of ZJUNlict",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nek0Charm",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "next",
+    "@vuepress/theme-default": "next",
+    "vuepress": "next"
+  }
+}
