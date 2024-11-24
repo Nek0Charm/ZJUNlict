@@ -4,13 +4,17 @@
   "description": "website of ZJUNlict",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "author": "Nek0Charm",
   "license": "ISC",
   "devDependencies": {
     "@vuepress/bundler-vite": "next",
     "@vuepress/theme-default": "next",
-    "vuepress": "next"
+    "sass-embedded": "^1.81.0",
+    "typescript": "^5.7.2",
+    "vuepress": "next",
+    "vuepress-theme-plume": "^1.0.0-rc.118"
   }
 }
