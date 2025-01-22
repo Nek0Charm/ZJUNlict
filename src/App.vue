@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+// 直接导入HomeView组件
+import HomeView from './views/HomeView.vue'
 </script>
 
 <template>
-  <RouterView />
+  <HomeView />
 </template>
 
 <style>
