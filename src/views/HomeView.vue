@@ -218,7 +218,7 @@ const aboutRoboCup = {
       <div class="groups-container">
         <div v-for="(group, index) in groups" :key="index" class="group-card">
           <div class="group-icon">
-            <img :src="`/icons/${group.icon}.svg`" :alt="group.name" />
+            <img :src="`/ZJUNlict/icons/${group.icon}.svg`" :alt="group.name" />
           </div>
           <h3 class="group-name">{{ group.name }}</h3>
           <p class="group-description">{{ group.description }}</p>

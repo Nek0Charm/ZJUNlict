@@ -7628,7 +7628,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent$1({
     return (_ctx, _cache) => {
       const _component_v_icon = resolveComponent("v-icon");
       return openBlock(), createElementBlock("div", _hoisted_1, [
-        _cache[3] || (_cache[3] = createStaticVNode('<section class="hero-section" data-v-a39aeecd><div class="hero-content" data-v-a39aeecd><h1 class="hero-title" data-v-a39aeecd><span class="title-line" data-v-a39aeecd>欢迎来到</span><span class="zjunlict-title" data-v-a39aeecd>ZJUNLICT</span></h1><p class="hero-subtitle" data-v-a39aeecd>我们是来自浙江大学的ROBOCUP小型组战队</p><div class="cta-buttons" data-v-a39aeecd><a href="#about-section" class="cta-button primary" data-v-a39aeecd>了解更多</a><button class="cta-button secondary" data-v-a39aeecd>观看视频</button></div></div><div class="robot-animation" data-v-a39aeecd><div class="robot" data-v-a39aeecd></div></div></section>', 1)),
+        _cache[3] || (_cache[3] = createStaticVNode('<section class="hero-section" data-v-a09145dd><div class="hero-content" data-v-a09145dd><h1 class="hero-title" data-v-a09145dd><span class="title-line" data-v-a09145dd>欢迎来到</span><span class="zjunlict-title" data-v-a09145dd>ZJUNLICT</span></h1><p class="hero-subtitle" data-v-a09145dd>我们是来自浙江大学的ROBOCUP小型组战队</p><div class="cta-buttons" data-v-a09145dd><a href="#about-section" class="cta-button primary" data-v-a09145dd>了解更多</a><button class="cta-button secondary" data-v-a09145dd>观看视频</button></div></div><div class="robot-animation" data-v-a09145dd><div class="robot" data-v-a09145dd></div></div></section>', 1)),
         createBaseVNode("section", _hoisted_2, [
           createBaseVNode("div", _hoisted_3, [
             createBaseVNode("h2", _hoisted_4, [
@@ -7712,7 +7712,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent$1({
               }, [
                 createBaseVNode("div", _hoisted_22, [
                   createBaseVNode("img", {
-                    src: `/icons/${group.icon}.svg`,
+                    src: `/ZJUNlict/icons/${group.icon}.svg`,
                     alt: group.name
                   }, null, 8, _hoisted_23)
                 ]),
@@ -7733,7 +7733,7 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const HomeView = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-a39aeecd"]]);
+const HomeView = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-a09145dd"]]);
 const _sfc_main = /* @__PURE__ */ defineComponent$1({
   __name: "App",
   setup(__props) {

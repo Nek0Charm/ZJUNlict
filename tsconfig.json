@@ -10,7 +10,7 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "types": ["vite/client", "vitest"],
+    "types": ["vite/client", "vitest", "@mdi/js"],
     "paths": {
       "@/*": ["src/*"]
     },

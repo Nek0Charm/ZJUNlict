@@ -293,7 +293,7 @@ function __VLS_template() {
             ...{ class: ("group-icon") },
         });
         __VLS_elementAsFunction(__VLS_intrinsicElements.img)({
-            src: ((`/icons/${group.icon}.svg`)),
+            src: ((`/ZJUNlict/icons/${group.icon}.svg`)),
             alt: ((group.name)),
         });
         __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({
