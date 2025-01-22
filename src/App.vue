@@ -76,5 +76,12 @@ import { RouterView } from 'vue-router'
   color: var(--text-color);
   min-height: 100vh;
   background: var(--background-color);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.v-application__wrap {
+  min-height: 100vh;
+  width: 100vw;
 }
 </style>
