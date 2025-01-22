@@ -4,9 +4,8 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/ZJUNlict/', // 替换为你的仓库名
+  base: './', // 使用相对路径
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
@@ -15,5 +14,13 @@ export default defineConfig({
   },
   build: {
     outDir: 'docs',
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[hash].[ext]',
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+      },
+    },
   },
 })
